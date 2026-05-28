@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<program>
+  <header>
+    <applicationBuildName></applicationBuildName>
+    <applicationBuildNumber>0</applicationBuildNumber>
+    <applicationBuildType>release</applicationBuildType>
+    <applicationName>NewCatroid</applicationName>
+    <applicationVersion>2.1.2BETA</applicationVersion>
+    <catrobatLanguageVersion>1.17</catrobatLanguageVersion>
+    <customResolution>false</customResolution>
+    <dateTimeUpload></dateTimeUpload>
+    <description></description>
+    <deviceName>LLY-LX1</deviceName>
+    <gitRemoteUrl></gitRemoteUrl>
+    <isCastProject>false</isCastProject>
+    <landscapeMode>false</landscapeMode>
+    <listeningLanguageTag></listeningLanguageTag>
+    <mediaLicense></mediaLicense>
+    <notesAndCredits></notesAndCredits>
+    <physicsHeightArea>2.0</physicsHeightArea>
+    <physicsWidthArea>3.0</physicsWidthArea>
+    <platform>Android</platform>
+    <platformVersion>34</platformVersion>
+    <programLicense></programLicense>
+    <programName>Clooud</programName>
+    <remixOf></remixOf>
+    <scenesEnabled>true</scenesEnabled>
+    <screenHeight>2307</screenHeight>
+    <screenMode>STRETCH</screenMode>
+    <screenWidth>1080</screenWidth>
+    <tags></tags>
+    <url></url>
+    <userHandle></userHandle>
+  </header>
+  <settings/>
+  <scenes>
+    <scene sceneId="a74f34e0-677d-4ccd-9ebe-34e1f6cc55d0">
+      <name>#cat_AC</name>
+      <objectList>
+        <object type="Sprite" spriteId="a8aee94e-04f5-4303-95e6-2dc3e29107a8" name="Фон">
+          <lookList>
+            <look fileName="Фон.png" lookId="38c349e6-4640-4ff9-8f51-728f6f0c8c7e" name="Фон">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SceneStartBrick">
+                  <brickId>ac74813a-bbfa-4e20-ba32-8dcbe7365d19</brickId>
+                  <commentedOut>false</commentedOut>
+                  <sceneToStart>#scn_home</sceneToStart>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>c39642f2-fe35-422f-81f4-b96984664fe6</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+    <scene sceneId="86e8047c-0eaf-4165-86f4-98e81097395d">
+      <name>#cat_foobia</name>
+      <objectList>
+        <object type="Sprite" spriteId="b3c4598e-ec04-4fa9-863f-47259aeea8a4" name="Фон">
+          <lookList/>
+          <soundList/>
+          <scriptList/>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+    <scene sceneId="fa252886-aa35-4e01-9027-fef9ac648a38">
+      <name>#scn_goo</name>
+      <objectList>
+        <object type="Sprite" spriteId="78908222-f3d0-49c4-833a-e172542b4dfb" name="Фон">
+          <lookList>
+            <look fileName="1000158344.png" lookId="844d0852-2cf8-4d8d-a9fa-7cc164c14bdd" name="1000158344">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList/>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="5e2e3039-6a3b-4883-84fd-744c01c57319" name="Yebo">
+          <lookList>
+            <look fileName="Мой актер или объект.png" lookId="ac6be77a-bb8a-4038-82c1-3c0cf927593c" name="Yebo">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>b2e4ef46-e721-4355-8620-70273519b76c</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>50</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="WebRequestBrick">
+                  <brickId>6e261ed9-0804-44a3-8ff5-51e1b4e49395</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="WEB_REQUEST">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>https://github.com/kimromanur/cloudify-assets/blob/6a0f92ab9d5a6e9fd5b7398d2791d2262afd59b9/config.json</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>-1</initialIndex>
+                        <deviceValueKey>8f673023-01eb-4339-bcd7-dc88fddd0292</deviceValueKey>
+                        <name>Test/test#</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+                <brick type="ShowTextColorSizeAlignmentBrick">
+                  <brickId>085656aa-35b6-44b0-988b-da0575ebde1b</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>100</value>
+                    </formula>
+                    <formula category="COLOR">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>#FF0000</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>200</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable reference="../../brick[2]/userVariable"/>
+                  <alignmentSelection>1</alignmentSelection>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>136d1911-7218-4816-b107-1b597545b2af</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+    <scene sceneId="ee14cd6f-2f35-453e-bbf8-ab4fc537a190">
+      <name>#scn_home</name>
+      <objectList>
+        <object type="Sprite" spriteId="34e31394-11b6-45b8-8419-039a7d8800ce" name="Фон">
+          <lookList>
+            <look fileName="1000158344.png" lookId="47224ad2-914d-4739-a525-6ef4e094b171" name="1000158344">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="RepeatBrick">
+                  <brickId>54ddb250-e68e-45de-81f8-ba5aa3f442c4</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIMES_TO_REPEAT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>5</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="WaitBrick">
+                      <brickId>f026b5e8-492c-4d74-af96-88c23c560445</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="TIME_TO_WAIT_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0.01</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                    <brick type="ChangeVariableBrick">
+                      <brickId>9ea19957-4203-4cb6-a48c-4a8d62796aed</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="VARIABLE_CHANGE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1</value>
+                        </formula>
+                      </formulaList>
+                      <userVariable type="UserVariable" serialization="custom">
+                        <userVariable>
+                          <default>
+                            <initialIndex>3</initialIndex>
+                            <deviceValueKey>dc4d539d-7a70-4b4b-9004-b572cd8c9960</deviceValueKey>
+                            <name>l#ist</name>
+                          </default>
+                        </userVariable>
+                      </userVariable>
+                    </brick>
+                    <brick type="ChangeVariableBrick">
+                      <brickId>1c8a1a3e-db1f-4e39-971b-131120eae4cc</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="VARIABLE_CHANGE">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>1080</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                      <userVariable type="UserVariable" serialization="custom">
+                        <userVariable>
+                          <default>
+                            <initialIndex>2</initialIndex>
+                            <deviceValueKey>710ddf0e-ad90-4499-8ab6-7ebfdeb94950</deviceValueKey>
+                            <name>news#</name>
+                          </default>
+                        </userVariable>
+                      </userVariable>
+                    </brick>
+                    <brick type="InsertItemIntoUserListBrick">
+                      <brickId>e148139e-2a98-4398-b8d7-e325ae1e26eb</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="INSERT_ITEM_INTO_USERLIST_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>news#</value>
+                        </formula>
+                        <formula category="INSERT_ITEM_INTO_USERLIST_INDEX">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>l#ist</value>
+                        </formula>
+                      </formulaList>
+                      <userList>
+                        <deviceListKey>5dd7a0ab-dd54-41c3-8cdf-7e9c6bf113f9</deviceListKey>
+                        <initialIndex>0</initialIndex>
+                        <name>New</name>
+                      </userList>
+                    </brick>
+                    <brick type="CloneBrick">
+                      <brickId>69685879-3872-4755-a405-700f0e1c5de3</brickId>
+                      <commentedOut>false</commentedOut>
+                      <objectToClone type="Sprite" spriteId="42f8e9d7-a56d-457a-ac44-628339b0c5c3" name="news#">
+                        <lookList>
+                          <look fileName="1000158337.png" lookId="bac1b173-7053-4f96-bbe7-b1bb4b277169" name="news#">
+                            <isWebRequest>false</isWebRequest>
+                            <valid>true</valid>
+                          </look>
+                        </lookList>
+                        <soundList/>
+                        <scriptList>
+                          <script type="StartScript" posX="0.0" posY="0.0">
+                            <brickList>
+                              <brick type="PlaceAtBrick">
+                                <brickId>8cacd0bf-3a64-4f37-b108-f805ff9dbdf9</brickId>
+                                <commentedOut>false</commentedOut>
+                                <formulaList>
+                                  <formula category="X_POSITION">
+                                    <additionalChildren/>
+                                    <type>NUMBER</type>
+                                    <value>0</value>
+                                  </formula>
+                                  <formula category="Y_POSITION">
+                                    <additionalChildren/>
+                                    <type>USER_VARIABLE</type>
+                                    <value>ScroleY</value>
+                                  </formula>
+                                </formulaList>
+                              </brick>
+                              <brick type="ForeverBrick">
+                                <brickId>f05daec9-00aa-47c5-8dd0-a675268ad318</brickId>
+                                <commentedOut>false</commentedOut>
+                                <loopBricks>
+                                  <brick type="SetYBrick">
+                                    <brickId>e2e52744-e101-4aaa-8d97-3a57136d7329</brickId>
+                                    <commentedOut>true</commentedOut>
+                                    <formulaList>
+                                      <formula category="Y_POSITION">
+                                        <additionalChildren/>
+                                        <type>USER_VARIABLE</type>
+                                        <value>ScroleY</value>
+                                      </formula>
+                                    </formulaList>
+                                  </brick>
+                                  <brick type="GlideToBrick">
+                                    <brickId>44066e06-9270-4001-bd2f-91319707aef4</brickId>
+                                    <commentedOut>false</commentedOut>
+                                    <formulaList>
+                                      <formula category="Y_DESTINATION">
+                                        <additionalChildren/>
+                                        <type>USER_VARIABLE</type>
+                                        <value>ScroleY</value>
+                                      </formula>
+                                      <formula category="DURATION_IN_SECONDS">
+                                        <additionalChildren/>
+                                        <type>NUMBER</type>
+                                        <value>0.05</value>
+                                      </formula>
+                                      <formula category="X_DESTINATION">
+                                        <additionalChildren/>
+                                        <type>NUMBER</type>
+                                        <value>0</value>
+                                      </formula>
+                                    </formulaList>
+                                  </brick>
+                                </loopBricks>
+                              </brick>
+                            </brickList>
+                            <commentedOut>false</commentedOut>
+                            <scriptId>c811c150-f410-4db7-acdf-774cc945b767</scriptId>
+                          </script>
+                          <script type="WhenClonedScript" posX="0.0" posY="0.0">
+                            <brickList>
+                              <brick type="ChangeVariableBrick">
+                                <brickId>75a10c13-3c7b-4eff-8d45-3c21eee5e9c4</brickId>
+                                <commentedOut>false</commentedOut>
+                                <formulaList>
+                                  <formula category="VARIABLE_CHANGE">
+                                    <additionalChildren/>
+                                    <type>NUMBER</type>
+                                    <value>1</value>
+                                  </formula>
+                                </formulaList>
+                                <userVariable type="UserVariable" serialization="custom">
+                                  <userVariable>
+                                    <default>
+                                      <initialIndex>4</initialIndex>
+                                      <deviceValueKey>13eacfdd-1c78-4811-b0d9-c7cdb858a586</deviceValueKey>
+                                      <name>list##</name>
+                                    </default>
+                                  </userVariable>
+                                </userVariable>
+                              </brick>
+                              <brick type="SetVariableBrick">
+                                <brickId>acc2c65e-3587-4ff9-a3b1-71396493dfe8</brickId>
+                                <commentedOut>false</commentedOut>
+                                <formulaList>
+                                  <formula category="VARIABLE">
+                                    <additionalChildren/>
+                                    <type>USER_VARIABLE</type>
+                                    <value>list##</value>
+                                  </formula>
+                                </formulaList>
+                                <userVariable type="UserVariable" serialization="custom">
+                                  <userVariable>
+                                    <default>
+                                      <initialIndex>0</initialIndex>
+                                      <deviceValueKey>11d7fc58-8709-458e-9b74-417dbe901dc7</deviceValueKey>
+                                      <name>#list</name>
+                                    </default>
+                                  </userVariable>
+                                </userVariable>
+                              </brick>
+                              <brick type="WaitBrick">
+                                <brickId>2063254c-d8bc-4fc7-8367-5237a9b0ea07</brickId>
+                                <commentedOut>false</commentedOut>
+                                <formulaList>
+                                  <formula category="TIME_TO_WAIT_IN_SECONDS">
+                                    <additionalChildren/>
+                                    <type>NUMBER</type>
+                                    <value>0.01</value>
+                                  </formula>
+                                </formulaList>
+                              </brick>
+                              <brick type="ChangeYByNBrick">
+                                <brickId>f641053f-400d-4d07-995e-239540b6c7bc</brickId>
+                                <commentedOut>false</commentedOut>
+                                <formulaList>
+                                  <formula category="Y_POSITION_CHANGE">
+                                    <additionalChildren/>
+                                    <type>USER_VARIABLE</type>
+                                    <value>news#</value>
+                                  </formula>
+                                </formulaList>
+                              </brick>
+                              <brick type="ForeverBrick">
+                                <brickId>aa144785-422c-4a14-91be-c813190a7b67</brickId>
+                                <commentedOut>false</commentedOut>
+                                <loopBricks>
+                                  <brick type="SetYBrick">
+                                    <brickId>b2560dcc-ec8c-4bb1-806c-8d47c50323ba</brickId>
+                                    <commentedOut>true</commentedOut>
+                                    <formulaList>
+                                      <formula category="Y_POSITION">
+                                        <additionalChildren/>
+                                        <leftChild>
+                                          <additionalChildren/>
+                                          <type>USER_VARIABLE</type>
+                                          <value>ScroleY</value>
+                                        </leftChild>
+                                        <rightChild>
+                                          <additionalChildren/>
+                                          <leftChild>
+                                            <additionalChildren/>
+                                            <type>USER_VARIABLE</type>
+                                            <value>#list</value>
+                                          </leftChild>
+                                          <rightChild>
+                                            <additionalChildren/>
+                                            <type>USER_LIST</type>
+                                            <value>New</value>
+                                          </rightChild>
+                                          <type>FUNCTION</type>
+                                          <value>LIST_ITEM</value>
+                                        </rightChild>
+                                        <type>OPERATOR</type>
+                                        <value>PLUS</value>
+                                      </formula>
+                                    </formulaList>
+                                  </brick>
+                                  <brick type="GlideToBrick">
+                                    <brickId>39489a05-887b-4f29-8d65-34982aed4f94</brickId>
+                                    <commentedOut>false</commentedOut>
+                                    <formulaList>
+                                      <formula category="Y_DESTINATION">
+                                        <additionalChildren/>
+                                        <leftChild>
+                                          <additionalChildren/>
+                                          <type>USER_VARIABLE</type>
+                                          <value>ScroleY</value>
+                                        </leftChild>
+                                        <rightChild>
+                                          <additionalChildren/>
+                                          <leftChild>
+                                            <additionalChildren/>
+                                            <type>USER_VARIABLE</type>
+                                            <value>#list</value>
+                                          </leftChild>
+                                          <rightChild>
+                                            <additionalChildren/>
+                                            <type>USER_LIST</type>
+                                            <value>New</value>
+                                          </rightChild>
+                                          <type>FUNCTION</type>
+                                          <value>LIST_ITEM</value>
+                                        </rightChild>
+                                        <type>OPERATOR</type>
+                                        <value>PLUS</value>
+                                      </formula>
+                                      <formula category="DURATION_IN_SECONDS">
+                                        <additionalChildren/>
+                                        <type>NUMBER</type>
+                                        <value>0.05</value>
+                                      </formula>
+                                      <formula category="X_DESTINATION">
+                                        <additionalChildren/>
+                                        <type>NUMBER</type>
+                                        <value>0</value>
+                                      </formula>
+                                    </formulaList>
+                                  </brick>
+                                </loopBricks>
+                              </brick>
+                            </brickList>
+                            <commentedOut>false</commentedOut>
+                            <scriptId>78c44a0f-4b3e-4e35-b44d-95dc58b53160</scriptId>
+                          </script>
+                        </scriptList>
+                        <nfcTagList/>
+                        <userVariables>
+                          <userVariable reference="../../scriptList/script[2]/brickList/brick[2]/userVariable"/>
+                        </userVariables>
+                        <userLists/>
+                        <userDefinedBrickList/>
+                      </objectToClone>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>934de10c-ea15-4671-8e4e-608511840525</scriptId>
+            </script>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SceneStartBrick">
+                  <brickId>7291e9e8-f9da-4d55-9aba-2b9f525167f2</brickId>
+                  <commentedOut>false</commentedOut>
+                  <sceneToStart>#cat_AC</sceneToStart>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>bd009ced-11f2-42d0-a93c-8ef1da94eb53</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="39a5f3b3-100d-43a8-9166-936d2318317d" name="ScroleY">
+          <lookList/>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>51ec2355-43d6-40b8-b8da-0d4edb740680</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>47fa0b12-0875-4c2d-a1e7-1fd28afba148</scriptId>
+            </script>
+            <script type="WhenTouchDownScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ForeverBrick">
+                  <brickId>077dafe9-26dc-46b2-bbb1-1772cd192be9</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="SetVariableBrick">
+                      <brickId>e2b56e0e-a096-418b-b08c-2d75c701c43b</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="VARIABLE">
+                          <additionalChildren/>
+                          <type>SENSOR</type>
+                          <value>OBJECT_Y</value>
+                        </formula>
+                      </formulaList>
+                      <userVariable type="UserVariable" serialization="custom">
+                        <userVariable>
+                          <default>
+                            <initialIndex>0</initialIndex>
+                            <deviceValueKey>8106c464-3056-42c2-8828-25c3bd0ef470</deviceValueKey>
+                            <name>ScroleY</name>
+                          </default>
+                        </userVariable>
+                      </userVariable>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>2b5d14af-6c5c-47e6-8c0b-c3e4fb4c0ac2</scriptId>
+            </script>
+            <script type="WhenTouchDownScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetVariableBrick">
+                  <brickId>f5a24682-6b0a-4eef-80de-0913867bdefa</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>SENSOR</type>
+                      <value>FINGER_Y</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>0</initialIndex>
+                        <deviceValueKey>6a203cb8-78fe-47a9-9ce7-0c4a7f64e8b4</deviceValueKey>
+                        <name>Y</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+                <brick type="SetVariableBrick">
+                  <brickId>180c93e1-faf6-4fda-a74d-9a55fcec0018</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>SENSOR</type>
+                      <value>OBJECT_Y</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>1</initialIndex>
+                        <deviceValueKey>6d6cd677-8d46-49ab-9e1b-2a2a01726d99</deviceValueKey>
+                        <name>-Y</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+                <brick type="RepeatUntilBrick">
+                  <brickId>7cd8169d-5613-4b69-979b-a4244a56d973</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="REPEAT_UNTIL_CONDITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>SENSOR</type>
+                        <value>FINGER_TOUCHED</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>LOGICAL_NOT</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="PlaceAtBrick">
+                      <brickId>5d60914d-7625-4b4a-9749-42015d2f9dcb</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="X_POSITION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0</value>
+                        </formula>
+                        <formula category="Y_POSITION">
+                          <additionalChildren/>
+                          <leftChild>
+                            <additionalChildren/>
+                            <leftChild>
+                              <additionalChildren/>
+                              <leftChild>
+                                <additionalChildren/>
+                                <leftChild>
+                                  <additionalChildren/>
+                                  <type>USER_VARIABLE</type>
+                                  <value>-Y</value>
+                                </leftChild>
+                                <rightChild>
+                                  <additionalChildren/>
+                                  <type>SENSOR</type>
+                                  <value>FINGER_Y</value>
+                                </rightChild>
+                                <type>OPERATOR</type>
+                                <value>PLUS</value>
+                              </leftChild>
+                              <rightChild>
+                                <additionalChildren/>
+                                <type>USER_VARIABLE</type>
+                                <value>Y</value>
+                              </rightChild>
+                              <type>OPERATOR</type>
+                              <value>MINUS</value>
+                            </leftChild>
+                            <rightChild>
+                              <additionalChildren/>
+                              <type>NUMBER</type>
+                              <value>0</value>
+                            </rightChild>
+                            <type>FUNCTION</type>
+                            <value>MAX</value>
+                          </leftChild>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>20000</value>
+                          </rightChild>
+                          <type>FUNCTION</type>
+                          <value>MIN</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="SetVariableBrick">
+                  <brickId>419d66ba-403f-41b0-94f0-3720207537ae</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>SENSOR</type>
+                      <value>OBJECT_Y</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable reference="../../brick[2]/userVariable"/>
+                </brick>
+                <brick type="SetVariableBrick">
+                  <brickId>ac9bbe0d-4bd5-46bb-b866-3c33275e58a9</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>SENSOR</type>
+                      <value>OBJECT_Y</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable reference="../../../../script[2]/brickList/brick/loopBricks/brick/userVariable"/>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>d95eae49-b94a-4909-8014-b2985509dc6b</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables>
+            <userVariable reference="../../scriptList/script[3]/brickList/brick/userVariable"/>
+            <userVariable reference="../../scriptList/script[3]/brickList/brick[2]/userVariable"/>
+            <userVariable type="UserVariable" serialization="custom">
+              <userVariable>
+                <default>
+                  <initialIndex>2</initialIndex>
+                  <deviceValueKey>d65d20c1-672f-489d-be46-0cd765d3442b</deviceValueKey>
+                  <name>weroryfrom</name>
+                </default>
+              </userVariable>
+            </userVariable>
+          </userVariables>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="9bbb5aa3-a617-4e80-94e5-ab47ea488c1f" name="ScroleX">
+          <lookList/>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>43724e63-f288-47dd-8b74-9ebb0c6b6521</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>1f3cc473-75b3-45c0-9be6-6ce6ac2f905b</scriptId>
+            </script>
+            <script type="WhenTouchDownScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ForeverBrick">
+                  <brickId>cbef521e-5f31-4178-8514-0ff1f1a0e719</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="SetVariableBrick">
+                      <brickId>2c631a7a-1358-44fa-b191-5d1303bcf088</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="VARIABLE">
+                          <additionalChildren/>
+                          <type>SENSOR</type>
+                          <value>OBJECT_X</value>
+                        </formula>
+                      </formulaList>
+                      <userVariable type="UserVariable" serialization="custom">
+                        <userVariable>
+                          <default>
+                            <initialIndex>1</initialIndex>
+                            <deviceValueKey>0f37726b-2f7e-404d-ad18-0e4a0dbd520c</deviceValueKey>
+                            <name>ScroleX</name>
+                          </default>
+                        </userVariable>
+                      </userVariable>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>7ddfdf0e-681a-4613-b7dd-3e654c5e8a3f</scriptId>
+            </script>
+            <script type="WhenTouchDownScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetVariableBrick">
+                  <brickId>e390b151-aa31-47b2-8f6b-573751450302</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>SENSOR</type>
+                      <value>FINGER_X</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>2</initialIndex>
+                        <deviceValueKey>74cab4d9-db2a-4577-9af5-16eb8527f413</deviceValueKey>
+                        <name>X</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+                <brick type="SetVariableBrick">
+                  <brickId>5f6417d5-0037-4695-ae85-c22d6ab2fe77</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>SENSOR</type>
+                      <value>OBJECT_X</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <initialIndex>3</initialIndex>
+                        <deviceValueKey>5c222f3d-9cd4-428b-b6fb-26d71de6ab64</deviceValueKey>
+                        <name>X-</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+                <brick type="RepeatUntilBrick">
+                  <brickId>1a501efb-3a5c-4703-980a-3f8701cbb14f</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="REPEAT_UNTIL_CONDITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>SENSOR</type>
+                        <value>FINGER_TOUCHED</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>LOGICAL_NOT</value>
+                    </formula>
+                  </formulaList>
+                  <loopBricks>
+                    <brick type="PlaceAtBrick">
+                      <brickId>9cdcdde9-324d-4239-b1f8-b4676cc85fa7</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="X_POSITION">
+                          <additionalChildren/>
+                          <leftChild>
+                            <additionalChildren/>
+                            <leftChild>
+                              <additionalChildren/>
+                              <leftChild>
+                                <additionalChildren/>
+                                <leftChild>
+                                  <additionalChildren/>
+                                  <type>USER_VARIABLE</type>
+                                  <value>X-</value>
+                                </leftChild>
+                                <rightChild>
+                                  <additionalChildren/>
+                                  <type>SENSOR</type>
+                                  <value>FINGER_X</value>
+                                </rightChild>
+                                <type>OPERATOR</type>
+                                <value>PLUS</value>
+                              </leftChild>
+                              <rightChild>
+                                <additionalChildren/>
+                                <type>USER_VARIABLE</type>
+                                <value>X</value>
+                              </rightChild>
+                              <type>OPERATOR</type>
+                              <value>MINUS</value>
+                            </leftChild>
+                            <rightChild>
+                              <additionalChildren/>
+                              <rightChild>
+                                <additionalChildren/>
+                                <type>NUMBER</type>
+                                <value>1100</value>
+                              </rightChild>
+                              <type>OPERATOR</type>
+                              <value>MINUS</value>
+                            </rightChild>
+                            <type>FUNCTION</type>
+                            <value>MAX</value>
+                          </leftChild>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>1100</value>
+                          </rightChild>
+                          <type>FUNCTION</type>
+                          <value>MIN</value>
+                        </formula>
+                        <formula category="Y_POSITION">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+                <brick type="SetVariableBrick">
+                  <brickId>ea276c64-6a59-477b-bcff-19a8dbe46729</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>SENSOR</type>
+                      <value>OBJECT_X</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable reference="../../brick[2]/userVariable"/>
+                </brick>
+                <brick type="SetVariableBrick">
+                  <brickId>66a9a199-5a2f-4b67-ad89-46c49bc599ec</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>SENSOR</type>
+                      <value>OBJECT_X</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable reference="../../../../script[2]/brickList/brick/loopBricks/brick/userVariable"/>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>9f992afb-8b8c-446c-90ac-1a32937a50c1</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables>
+            <userVariable reference="../../scriptList/script[3]/brickList/brick/userVariable"/>
+            <userVariable reference="../../scriptList/script[3]/brickList/brick[2]/userVariable"/>
+          </userVariables>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object reference="../object/scriptList/script/brickList/brick/loopBricks/brick[5]/objectToClone"/>
+        <object type="Sprite" spriteId="0367887d-43cb-4c84-bf0b-1df47f88bb55" name="Post">
+          <lookList>
+            <look fileName="1000158587.png" lookId="560421d2-8249-49b0-991c-c60c68402dbc" name="Post">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>2453122b-91cb-40a6-ac78-ca052abbcf80</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>277</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>685</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="SetSizeToBrick">
+                  <brickId>c06a6866-6978-43f9-a812-7d009c67eb29</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>27</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="ForeverBrick">
+                  <brickId>3fdafa31-3655-4d45-a0ad-500e7c29b087</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="ShowTextFontBrick">
+                      <brickId>fa4ad60f-3c29-4c97-a333-9a24089d60c9</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="SIZE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>135</value>
+                        </formula>
+                        <formula category="NAME">
+                          <additionalChildren/>
+                          <type>STRING</type>
+                          <value>Time</value>
+                        </formula>
+                        <formula category="X_POSITION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>450</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                        <formula category="TEXT">
+                          <additionalChildren/>
+                          <type>STRING</type>
+                          <value>Время</value>
+                        </formula>
+                        <formula category="COLOR">
+                          <additionalChildren/>
+                          <type>STRING</type>
+                          <value>#FFFFFF</value>
+                        </formula>
+                        <formula category="Y_POSITION">
+                          <additionalChildren/>
+                          <leftChild>
+                            <additionalChildren/>
+                            <type>USER_VARIABLE</type>
+                            <value>ScroleY</value>
+                          </leftChild>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>685</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>PLUS</value>
+                        </formula>
+                        <formula category="FILE">
+                          <additionalChildren/>
+                          <type>STRING</type>
+                          <value>you_text.ttf</value>
+                        </formula>
+                      </formulaList>
+                      <userVariable reference="../../../../../../../../object[2]/scriptList/script[2]/brickList/brick/loopBricks/brick/userVariable"/>
+                      <alignmentSelection>0</alignmentSelection>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>6d0eab65-01cd-4785-9f28-908ec0a1da23</scriptId>
+            </script>
+            <script type="WhenTouchDownScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="ForeverBrick">
+                  <brickId>ab4208c7-ff15-4723-9775-cf0584ed0241</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="GlideToBrick">
+                      <brickId>0eeeaa01-3121-45c3-854e-aa02641d2a71</brickId>
+                      <commentedOut>false</commentedOut>
+                      <formulaList>
+                        <formula category="Y_DESTINATION">
+                          <additionalChildren/>
+                          <leftChild>
+                            <additionalChildren/>
+                            <type>USER_VARIABLE</type>
+                            <value>ScroleY</value>
+                          </leftChild>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>685</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>PLUS</value>
+                        </formula>
+                        <formula category="DURATION_IN_SECONDS">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0.05</value>
+                        </formula>
+                        <formula category="X_DESTINATION">
+                          <additionalChildren/>
+                          <rightChild>
+                            <additionalChildren/>
+                            <type>NUMBER</type>
+                            <value>277</value>
+                          </rightChild>
+                          <type>OPERATOR</type>
+                          <value>MINUS</value>
+                        </formula>
+                      </formulaList>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>f980c32a-4c7e-4d26-81ec-212cfeee57b9</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="0271aff7-17f0-43bb-82c2-e3c6e70fd2eb" name="J">
+          <lookList>
+            <look fileName="1000153619.png" lookId="0df437c0-317b-4e86-a768-4ee81422f29c" name="J">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>af39c94c-0f2c-425a-829c-e4edf1bf4ed4</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>950</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>83183c6d-2ab4-4572-9679-df35f4c4d25d</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="a7670d71-ec76-44bc-ac45-9c4731824762" name="U">
+          <lookList>
+            <look fileName="1000158377.png" lookId="1746cff8-91a4-4413-be4d-e9c6e6c45b54" name="U">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>4f8e13e8-e37b-4604-9fb4-4493e609b9e5</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1085</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>2130e3cb-46b2-4eee-8558-f8896b837a16</scriptId>
+            </script>
+            <script type="WhenConditionScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="GlideToBrick">
+                  <brickId>0c278a40-b587-496b-aeda-491b90c516d1</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_DESTINATION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0.05</value>
+                    </formula>
+                    <formula category="X_DESTINATION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>ab059caa-2eb3-43b9-9972-e42782b5a636</scriptId>
+              <formulaMap>
+                <formula category="IF_CONDITION">
+                  <additionalChildren/>
+                  <leftChild>
+                    <additionalChildren/>
+                    <type>USER_VARIABLE</type>
+                    <value>order#</value>
+                  </leftChild>
+                  <rightChild>
+                    <additionalChildren/>
+                    <type>NUMBER</type>
+                    <value>1</value>
+                  </rightChild>
+                  <type>OPERATOR</type>
+                  <value>EQUAL</value>
+                </formula>
+              </formulaMap>
+            </script>
+            <script type="WhenConditionScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="GlideToBrick">
+                  <brickId>592e6dc3-b24b-48d9-99e2-fe223a921097</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="Y_DESTINATION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="DURATION_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0.05</value>
+                    </formula>
+                    <formula category="X_DESTINATION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1085</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>0a74e19c-4032-4f3f-966a-733278d99992</scriptId>
+              <formulaMap>
+                <formula category="IF_CONDITION">
+                  <additionalChildren/>
+                  <leftChild>
+                    <additionalChildren/>
+                    <type>USER_VARIABLE</type>
+                    <value>order#</value>
+                  </leftChild>
+                  <rightChild>
+                    <additionalChildren/>
+                    <type>NUMBER</type>
+                    <value>1</value>
+                  </rightChild>
+                  <type>OPERATOR</type>
+                  <value>NOT_EQUAL</value>
+                </formula>
+              </formulaMap>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+    <scene sceneId="7bc21eb5-b9c3-491d-ad72-8662dfeefaa1">
+      <name>#scn_account</name>
+      <objectList>
+        <object type="Sprite" spriteId="6da9765b-6a4f-49d3-9e19-9ffb9fe6cc25" name="Фон">
+          <lookList/>
+          <soundList/>
+          <scriptList/>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+    <scene sceneId="f886423c-d1fd-42ba-a710-ff7408b0a460">
+      <name>#cat_ban</name>
+      <objectList>
+        <object type="Sprite" spriteId="c6237da3-304a-4d83-80ec-ff85f8187a4d" name="Фон">
+          <lookList/>
+          <soundList/>
+          <scriptList/>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+  </scenes>
+  <programVariableList>
+    <userVariable reference="../../scenes/scene[4]/objectList/object[2]/scriptList/script[2]/brickList/brick/loopBricks/brick/userVariable"/>
+    <userVariable reference="../../scenes/scene[4]/objectList/object[3]/scriptList/script[2]/brickList/brick/loopBricks/brick/userVariable"/>
+    <userVariable reference="../../scenes/scene[4]/objectList/object/scriptList/script/brickList/brick/loopBricks/brick[3]/userVariable"/>
+    <userVariable reference="../../scenes/scene[4]/objectList/object/scriptList/script/brickList/brick/loopBricks/brick[2]/userVariable"/>
+    <userVariable reference="../../scenes/scene[4]/objectList/object/scriptList/script/brickList/brick/loopBricks/brick[5]/objectToClone/scriptList/script[2]/brickList/brick/userVariable"/>
+    <userVariable type="UserVariable" serialization="custom">
+      <userVariable>
+        <default>
+          <initialIndex>5</initialIndex>
+          <deviceValueKey>c867989e-e277-43c5-8c4d-1df9ec06ae35</deviceValueKey>
+          <name>order#</name>
+        </default>
+      </userVariable>
+    </userVariable>
+    <userVariable reference="../../scenes/scene[3]/objectList/object[2]/scriptList/script/brickList/brick[2]/userVariable"/>
+  </programVariableList>
+  <programListOfLists>
+    <userList reference="../../scenes/scene[4]/objectList/object/scriptList/script/brickList/brick/loopBricks/brick[4]/userList"/>
+  </programListOfLists>
+  <programMultiplayerVariableList/>
+</program>
